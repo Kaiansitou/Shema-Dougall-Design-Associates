@@ -1,0 +1,217 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.page-wrapper {
+  width: 100%;
+}
+.page-section {
+  width: 90vw;
+  margin: 30px auto;
+}
+.background-image-function {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+.background-image {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(2, 2, 2, 0.6)), to(rgba(2, 2, 2, 0.6))), url("/images/casino-bg.jpg");
+  background: linear-gradient(rgba(2, 2, 2, 0.6), rgba(2, 2, 2, 0.6)), url("/images/casino-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+.background-image .bg-content {
+  display: -webkit-box;
+  display: flex;
+  color: white;
+  -webkit-box-pack: center;
+          justify-content: center;
+  height: 500px;
+  -webkit-box-align: center;
+          align-items: center;
+}
+.background-image .bg-content h2 {
+  font-size: 2em;
+  padding: 20px 40px;
+}
+.top-menu {
+  position: absolute;
+  top: 0;
+  color: white;
+  display: -webkit-box;
+  display: flex;
+  width: 100%;
+}
+.top-menu img {
+  height: 40px;
+  margin: 20px 40px;
+}
+.top-menu .menu-link {
+  margin-left: auto;
+  padding: 30px 30px 30px 0;
+}
+.top-menu .menu-link a {
+  text-decoration: none;
+  color: white;
+  padding: 0 40px;
+  font-size: 18px;
+}
+.top-menu .menu-link input {
+  float: right;
+  padding: 6px;
+  border: 1px solid white;
+  margin-right: 16px;
+  font-size: 11px;
+  border-radius: 30px;
+  background-color: transparent;
+}
+.top-menu .menu-link ::-webkit-input-placeholder {
+  color: white;
+}
+.top-menu .menu-link ::-moz-placeholder {
+  color: white;
+}
+.top-menu .menu-link :-ms-input-placeholder {
+  color: white;
+}
+.top-menu .menu-link ::-ms-input-placeholder {
+  color: white;
+}
+.top-menu .menu-link ::placeholder {
+  color: white;
+}
+.dir {
+  color: #8C8C8C;
+}
+body {
+  background-color: #EBECED;
+}
+.middle-container {
+  width: 90%;
+  background-color: white;
+}
+.middle-container .middle-box {
+  padding: 50px 100px 0 100px;
+}
+.middle-container .middle-box img {
+  height: 30px;
+  padding-right: 10px;
+}
+.middle-container .middle-box .photo {
+  display: -webkit-box;
+  display: flex;
+}
+.middle-container .middle-box .photo .photo-left img {
+  width: 350px;
+  height: 620px;
+}
+.middle-container .middle-box .photo .photo-right {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+}
+.middle-container .middle-box .photo .photo-right img {
+  width: 285px;
+  height: 200px;
+  padding: 0 10px 10px 0;
+}
+.middle-container .middle-box .photo-container {
+  display: -webkit-box;
+  display: flex;
+}
+.middle-container .middle-box .photo-container .photo-leftbox img {
+  width: 283px;
+  height: 230px;
+}
+.middle-container .middle-box .photo-container .photo-rightbox img {
+  width: 350px;
+  height: 602px;
+}
+.middle-container .middle-box hr {
+  margin: 40px 0 0 0;
+  width: 99%;
+}
+.middle-container .middle-box .infinite {
+  margin: auto;
+  padding: 100px;
+  width: 100px;
+}
+.footer {
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+  background-color: #4E4D5A;
+  color: white;
+  -webkit-box-align: center;
+          align-items: center;
+  height: 300px;
+}
+.footer img {
+  height: 200px;
+}
+.footer .footer-contact h2 {
+  padding-bottom: 10px;
+}
+.footer .footer-contact h3 {
+  font-size: 14px;
+  padding: 5px 0;
+}
+.footer .footer-contact .phone::after {
+  content: "626.432. 6464";
+  color: #FFB300;
+}
+.footer .footer-contact .footer-icon i {
+  padding: 40px 10px 0 0;
+}
+.footer .footer-link {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+.footer .footer-link a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 20px ;
+}
+.footer .footer-newsletter h2 {
+  padding-bottom: 30px;
+}
+.footer .footer-newsletter .copyright {
+  text-align: right;
+  padding: 40px 0;
+  font-size: 14px;
+}
+.footer .footer-newsletter input {
+  width: 240px;
+  height: 30px;
+  background-color: #6A6975;
+  border: none;
+}
+.footer .footer-newsletter ::-webkit-input-placeholder {
+  color: white;
+  padding-left: 5px;
+}
+.footer .footer-newsletter ::-moz-placeholder {
+  color: white;
+  padding-left: 5px;
+}
+.footer .footer-newsletter :-ms-input-placeholder {
+  color: white;
+  padding-left: 5px;
+}
+.footer .footer-newsletter ::-ms-input-placeholder {
+  color: white;
+  padding-left: 5px;
+}
+.footer .footer-newsletter ::placeholder {
+  color: white;
+  padding-left: 5px;
+}
